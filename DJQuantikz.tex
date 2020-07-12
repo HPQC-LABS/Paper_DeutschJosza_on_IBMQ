@@ -1,0 +1,249 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{quantikz}
+\usetikzlibrary{backgrounds}
+
+
+\title{Deutsch-Jozsa Circuits using the $Z^n$-gate as Oracle (Quantikz).}
+\date{\today}
+\begin{document}
+
+\maketitle
+
+
+\section*{1 qubit}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[1,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  
+\end{quantikz}
+\end{center}
+
+
+\section*{2 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[2,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{3 qubits}
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[3,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+
+\section*{4 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[4,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+
+\section*{5 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[5,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{6 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[6,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}   
+\end{center}
+
+\section*{7 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[7,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{8 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[8,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{9 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[9,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{10 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[10,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+\section*{11 qubits}
+
+\begin{center}
+ \begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[11,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}   
+\end{center}
+
+
+\section*{12 qubits}
+
+\begin{center}
+   \begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[12,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz} 
+\end{center}
+
+
+\section*{13 qubits}
+
+\begin{center}
+\begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[13,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}    
+\end{center}
+
+
+\section*{14 qubits}
+
+
+\begin{center}
+    \begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[14,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}
+\end{center}
+
+
+\section*{15 qubits}
+
+\begin{center}
+  \begin{quantikz}
+\lstick{\ket{0}}& \gate{H}& \gate{Z}\gategroup[15,steps=1,style={rounded corners,fill=blue!10, inner xsep=73pt},background] {\sc}& \gate{H} &  \meter{} \qw  \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw \\
+\lstick{\ket{0}}&  \gate{H} &  \gate{Z} & \gate{H} &  \meter{} \qw 
+\end{quantikz}  
+\end{center}
+
+
+
+\end{document}
