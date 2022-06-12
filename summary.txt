@@ -1,0 +1,17 @@
+- $n$ is the number of qubits.<br>
+- $k_\textrm{max}$ is the number of queries necessary for the classical algorithm to get the answer 100% correct.<br>
+- $1-\frac{1}{2^{k-1}}$ is the probability of getting the answer correct with a classical random algorithm described in a few places. 
+
+|$n$|$k_{\textrm{max}}$|$\textrm{max}\left(\frac{2}{3},1-\frac{1}{2^{k-1}}\right)$ | $F$ IBM| $F_\textrm{error mitigated}$ IBM | $F$ IonQ | $F_\textrm{error mitigated}$ IonQ|
+|-- | ---| --          |--|--|--|--|
+|1  |2   |2/3=66%      |  |  |  |  |
+|2  |3   |3/4=75%      |  |  |  |  |
+|3  |5   |15/16=93.75% |  |  |  |  |
+|4  |9   |255/256=99.6%|  |  |  |  |
+|5  |17  |             |  |  |  |  |
+|6  |33  |             |  |  |  |  |
+|7  |65  |             |  |  |  |  |
+|8  |129 |             |  |  |  |  |
+|9  |257 |             |  |  |  |  |
+|10 |513 |             |  |  |  |  |
+|11 |1025|             |  |  |  |  |
