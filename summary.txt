@@ -17,3 +17,5 @@
 |11 |1025|             |  |  |  |  |
 
 This paper (https://www.iiitd.edu.in/~dbera/docs/2015-DJ.pdf) suggests that the lower bound on the classical error is 1/2^(2k) meaning that we would be successful with probability: 1 - 1/2^(2k), which is 75% for k=1. How can that be true for 1 qubit? The first query just tells you if the first bit is a 0 or a 1, which tells you 0 information about anything. Isn't it still a 50% chance that you'll be correct about constant v. balanced?
+
+Possible title: "How badly do quantum computers fail at efficiently solving the Deutsch-Jozsa algorithm?"
